@@ -13,6 +13,8 @@ import com.inshorts.odia.util.DateUtil;
 @Repository
 public class NewsRepositoryImpl implements NewsRepository {
 
+	private static final String IMAGE_LINK = "https://www.google.co.in/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjc-smczszeAhXaknAKHfwPDqMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2F652740539714373831%2F&psig=AOvVaw34iRUEp0aNtuyKpcwGRY4s&ust=1542035009304757";
+
 	public News readNews(Long newsId) {
 		News news = new News();
 		news.setDate(DateUtil.getSqlDateToday());

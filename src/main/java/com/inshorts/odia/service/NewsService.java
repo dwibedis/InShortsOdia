@@ -2,10 +2,9 @@ package com.inshorts.odia.service;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.inshorts.odia.model.NewsList;
-
 public interface NewsService {
 
-	public String getNewses();
+	public String getNewsFirst();
 	public boolean addNews(HttpServletRequest request);
+	public String getNewsNext(int id);
 }

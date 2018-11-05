@@ -24,8 +24,9 @@ public class NewsServiceImpl implements NewsService {
 
 	private static final Gson GSON = new Gson();
 
-	public String getNewses() {
-		List<News> newsList = new ArrayList<News>();
+	@Override
+	public String getNewsFirst() {
+		List<News> newsList = new ArrayList<>();
 		Date date = DateUtil.getSqlDateToday();
 		List<Long> newsIdList = newsRepo.getNewsIdListByDate(date);
 		for (int counter = 0; counter < newsIdList.size(); counter++) {
@@ -34,9 +35,16 @@ public class NewsServiceImpl implements NewsService {
 		return GSON.toJson(NewsList.builder().newses(newsList).build());
 	}
 
+	@Override
 	public boolean addNews(HttpServletRequest request) {
 		// TODO Auto-generated method stub
 		return false;
+	}
+
+	@Override
+	public String getNewsNext(int id) {
+		
+		return null;
 	}
 
 }
