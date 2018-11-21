@@ -16,6 +16,10 @@ public class HomeController {
 	@Autowired
 	private NewsService newsService;
 
+	@GetMapping(value = "/)
+	public String home() {
+		return "Welcome to InShorts in Odia home";
+	}
 	@GetMapping(value = "/fetchNews")
 	public String getNewses() {
 		return newsService.getNewses();
