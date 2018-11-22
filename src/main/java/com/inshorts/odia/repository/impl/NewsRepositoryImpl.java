@@ -19,8 +19,7 @@ public class NewsRepositoryImpl implements NewsRepository {
 		news.setNewsContent(
 				"ବଳିଆ କୁକୁର (ଭାରତରେ “ଢୋଲ୍” ଭାବେ ପରିଚିତ, ଜୀବ ବିଜ୍ଞାନ ନାମ Cuon Alpinus, ସମ୍ଵଲପୁରୀ ଭାଷାରେ କୋକବଲିଆ) ମଧ୍ୟ ଏସିଆ, ଦକ୍ଷିଣ ଏସିଆ ଓ ଦକ୍ଷିଣ-ପୂର୍ବ ଏସିଆରେ ଦେଖାଯାଉଥିବା ଏକ ଶ୍ଵାନ ଜାତୀୟ ପ୍ରାଣୀ । ବଳିଆ କୁକୁରକୁ ଭାରତର ଅନ୍ୟ ସ୍ଥାନ ମାନଙ୍କରେ ଲୋକେ ଢୋଲ୍, ଏସୀୟ ଜଙ୍ଗଲି କୁକୁର[୨], ଭାରତୀୟ ଜଙ୍ଗଲି କୁକୁର, ହ୍ଵିସିଲ୍ ଶବ୍ଦକାରୀ କୁକୁର, ଲାଲ୍ କୁକୁର[୩] ଓ ପର୍ବତୀୟ ଗଧିଆ ମଧ୍ୟ କୁହନ୍ତି । ଜିନ୍ ଦୃଷ୍ଟିରୁ ଏହା ଶ୍ଵାନ ପ୍ରଜାତୀୟ ପ୍ରାଣୀଙ୍କ ନିକଟତମ[୪], କିନ୍ତୁ ଏହାର ଖପୁରି ସମଜାତୀୟ ପ୍ରାଣୀଙ୍କ ଭଳି ଅବତଳ ନହୋଇ ସାମାନ୍ୟ ଉତ୍ତଳ ହୋଇଥାଏ । ଏହି ଦୁଇ ପ୍ରଜାତିଙ୍କ ଥୋଡ଼ି ବା ମୁହଁର ଗଠନରେ ମଧ୍ୟ ତଫାତ ଥାଏ । ପ୍ଲାଇଷ୍ଟୋସିନ୍ ସମୟରେ ବଳିଆ କୁକୁର ଏସିଆ, ଇଉରୋପ ଏବଂ ଉତ୍ତର ଆମେରିକାରେ ବହୁ ପରିମାଣରେ ଚଳପ୍ରଚଳ କରୁଥିଲେ କିନ୍ତୁ ପ୍ରାୟ ୧୨,୦୦୦ରୁ ୧୮,୦୦୦ ବର୍ଷ ପୂର୍ବେ ସେମାନଙ୍କ ଭୌଗୋଳିକ ଅବସ୍ଥିତି କ୍ରମେ ସୀମିତ ହେବାକୁ ଲାଗିଲା ।");
 		news.setContentLink("https://or.wikipedia.org/wiki/");
-		news.setImageLink(
-				"https://www.google.co.in/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi7ksDI8OXeAhUIaI8KHRegB3QQjRx6BAgBEAU&url=https%3A%2F%2Fsports.ndtv.com%2Faustralia-vs-india-2018-19%2Findia-vs-australia-weakened-australia-still-world-class-says-virat-kohli-1950287&psig=AOvVaw0THQfOqRBoVs1HWHvcHAKc&ust=1542903224558083");
+		news.setImageLink("https://c.ndtvimg.com/2018-11/thhv28bg_virat-kohli-twitter_625x300_18_November_18.jpg");
 		news.setNewsTitle("ପିମ୍ପୁଡି କାମୁଡିବା ରୁ ସାନୁ ମୂତ");
 		news.setMainContentTitle(
 				"ପୂର୍ବରୁ ଥିବା ପ୍ରସଙ୍ଗ ସବୁକୁ ଆପଣ ଅଧିକ ତଥ୍ୟ ଯୋଡ଼ି ଉନ୍ନତ କରିପାରିବେ ବା ନୂଆ ପ୍ରସଙ୍ଗ ତିଆରି କରିପାରିବେ ।");
