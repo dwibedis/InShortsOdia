@@ -10,4 +10,5 @@ public interface NewsRepository {
 	public List<Long> getNewsIdListByDate(Date date);
 	public News readNews(Long newsId);
 	public News writeNews();
+	public News readNews1();
 }

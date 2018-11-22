@@ -32,6 +32,7 @@ public class NewsServiceImpl implements NewsService {
 		for (int counter = 0; counter < newsIdList.size(); counter++) {
 			newsList.add(newsRepo.readNews(newsIdList.get(counter)));
 		}
+		newsList.add(newsRepo.readNews1());
 		return GSON.toJson(NewsList.builder().newses(newsList).build());
 	}
 
