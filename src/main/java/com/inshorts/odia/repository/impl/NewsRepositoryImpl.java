@@ -23,7 +23,7 @@ public class NewsRepositoryImpl implements NewsRepository {
 		news.setNewsTitle("ପିମ୍ପୁଡି କାମୁଡିବା ରୁ ସାନୁ ମୂତ");
 		news.setMainContentTitle(
 				"ପୂର୍ବରୁ ଥିବା ପ୍ରସଙ୍ଗ ସବୁକୁ ଆପଣ ଅଧିକ ତଥ୍ୟ ଯୋଡ଼ି ଉନ୍ନତ କରିପାରିବେ ବା ନୂଆ ପ୍ରସଙ୍ଗ ତିଆରି କରିପାରିବେ ।"
-						.substring(0, 20).concat(".."));
+						.substring(0, 30).concat("..."));
 
 		return news;
 	}
