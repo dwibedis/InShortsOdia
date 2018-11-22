@@ -22,7 +22,8 @@ public class NewsRepositoryImpl implements NewsRepository {
 		news.setImageLink("https://c.ndtvimg.com/2018-11/thhv28bg_virat-kohli-twitter_625x300_18_November_18.jpg");
 		news.setNewsTitle("ପିମ୍ପୁଡି କାମୁଡିବା ରୁ ସାନୁ ମୂତ");
 		news.setMainContentTitle(
-				"ପୂର୍ବରୁ ଥିବା ପ୍ରସଙ୍ଗ ସବୁକୁ ଆପଣ ଅଧିକ ତଥ୍ୟ ଯୋଡ଼ି ଉନ୍ନତ କରିପାରିବେ ବା ନୂଆ ପ୍ରସଙ୍ଗ ତିଆରି କରିପାରିବେ ।");
+				"ପୂର୍ବରୁ ଥିବା ପ୍ରସଙ୍ଗ ସବୁକୁ ଆପଣ ଅଧିକ ତଥ୍ୟ ଯୋଡ଼ି ଉନ୍ନତ କରିପାରିବେ ବା ନୂଆ ପ୍ରସଙ୍ଗ ତିଆରି କରିପାରିବେ ।"
+						.substring(0, 20).concat(".."));
 
 		return news;
 	}
